@@ -1,6 +1,6 @@
 ## Overview
 
-A collection of sample applications and usage examples for
+A collection of sample applications and usage examples using
 [libvlc-go](https://github.com/adrg/libvlc-go).
 
 ## Prerequisites

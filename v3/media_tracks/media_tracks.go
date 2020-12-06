@@ -33,22 +33,22 @@ func main() {
 	}
 
 	for i, track := range tracks {
-		fmt.Printf("Track #%d\n", i+1)
-		fmt.Println("ID:", track.ID)
-		fmt.Println("Bit rate:", track.BitRate)
-		fmt.Println("Codec:", track.Codec)
-		fmt.Println("Original codec:", track.OriginalCodec)
-		fmt.Println("Profile:", track.Profile)
-		fmt.Println("Level:", track.Level)
-		fmt.Println("Language:", track.Language)
-		fmt.Println("Description:", track.Description)
-
 		// Retrieve codec description.
 		codecDesc, err := track.CodecDescription()
 		if err != nil {
 			log.Fatal(err)
 		}
+
+		fmt.Printf("Track #%d\n", i+1)
+		fmt.Println("ID:", track.ID)
+		fmt.Println("Bit rate:", track.BitRate)
+		fmt.Println("Codec:", track.Codec)
+		fmt.Println("Original codec:", track.OriginalCodec)
 		fmt.Println("Codec description:", codecDesc)
+		fmt.Println("Profile:", track.Profile)
+		fmt.Println("Level:", track.Level)
+		fmt.Println("Language:", track.Language)
+		fmt.Println("Description:", track.Description)
 
 		switch track.Type {
 		case vlc.MediaTrackAudio:
