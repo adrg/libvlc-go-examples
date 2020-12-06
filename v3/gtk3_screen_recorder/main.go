@@ -169,12 +169,12 @@ func main() {
 
 				// Set player media.
 				if err := player.SetMedia(media); err != nil {
-					log.Fatal("Cannot set player media: %s\n", err)
+					log.Fatalf("Cannot set player media: %s\n", err)
 				}
 
 				// Start screen recording.
 				if err := player.Play(); err != nil {
-					log.Fatal("Cannot play media: %s\n", err)
+					log.Fatalf("Cannot play media: %s\n", err)
 				}
 
 				recordButton.SetLabel("gtk-media-stop")
