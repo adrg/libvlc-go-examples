@@ -19,6 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer media.Release()
 
 	// Parse media.
 	if err := parseMedia(media); err != nil {
