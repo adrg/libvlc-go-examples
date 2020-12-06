@@ -1,6 +1,7 @@
 ## Overview
 
-A collection of usage examples for [libvlc-go](https://github.com/adrg/libvlc-go).
+A collection of sample applications and usage examples for
+[libvlc-go](https://github.com/adrg/libvlc-go).
 
 ## Prerequisites
 
@@ -32,3 +33,19 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 * [Handling events](v2/event_handling/event_handling.go)
 * [Retrieve media information](v2/media_information/media_information.go)
 * [Display screen as player media](v2/display_screen_media/display_screen_media.go)
+
+## Contributing
+
+Contributions in the form of pull requests, issues or just general feedback,
+are always welcome.
+See [CONTRIBUTING.MD](CONTRIBUTING.md).
+
+**Contributors**:
+[adrg](https://github.com/adrg).
+
+## License
+
+Copyright (c) 2020 Adrian-George Bostan.
+
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+See [LICENSE](LICENSE) for more details.
