@@ -19,6 +19,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 * [Basic player usage](v3/player/player.go)
 * [Basic list player usage](v3/list_player/list_player.go)
 * [Handling events](v3/event_handling/event_handling.go)
+* [Retrieve media tracks](v3/media_tracks/media_tracks.go)
 * [Retrieve media information](v3/media_information/media_information.go)
 * [Display screen as player media](v3/display_screen_media/display_screen_media.go)
 
@@ -31,6 +32,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 * [Basic player usage](v2/player/player.go)
 * [Basic list player usage](v2/list_player/list_player.go)
 * [Handling events](v2/event_handling/event_handling.go)
+* [Retrieve media tracks](v2/media_tracks/media_tracks.go)
 * [Retrieve media information](v2/media_information/media_information.go)
 * [Display screen as player media](v2/display_screen_media/display_screen_media.go)
 
