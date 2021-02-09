@@ -142,11 +142,7 @@ func main() {
 	}
 
 	// De-register attached events.
-	defer func() {
-		for _, eventID := range eventIDs {
-			manager.Detach(eventID)
-		}
-	}()
+	defer manager.Detach(eventIDs...)
 
 	// Register media parsed event with the media event manager.
 	mEventManager, err := media.EventManager()

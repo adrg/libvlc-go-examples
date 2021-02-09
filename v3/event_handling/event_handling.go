@@ -81,11 +81,7 @@ func main() {
 	}
 
 	// De-register attached events.
-	defer func() {
-		for _, eventID := range eventIDs {
-			manager.Detach(eventID)
-		}
-	}()
+	defer manager.Detach(eventIDs...)
 
 	// Start playing the media.
 	if err = player.Play(); err != nil {
