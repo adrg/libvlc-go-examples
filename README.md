@@ -40,7 +40,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 ## Contributing
 
 Contributions in the form of pull requests, issues or just general feedback,
-are always welcome.
+are always welcome.  
 See [CONTRIBUTING.MD](CONTRIBUTING.md).
 
 **Contributors**:
