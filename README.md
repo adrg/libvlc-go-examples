@@ -23,6 +23,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 * [Retrieve media information](v3/media_information/media_information.go)
 * [Display screen as player media](v3/display_screen_media/display_screen_media.go)
 * [Stream media to Chromecast](v3/chromecast_streaming/chromecast_streaming.go)
+* [Player equalizer usage](v3/equalizer/equalizer.go)
 
 ### libvlc-go v2
 
@@ -36,6 +37,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 * [Retrieve media tracks](v2/media_tracks/media_tracks.go)
 * [Retrieve media information](v2/media_information/media_information.go)
 * [Display screen as player media](v2/display_screen_media/display_screen_media.go)
+* [Player equalizer usage](v2/equalizer/equalizer.go)
 
 ## Contributing
 
