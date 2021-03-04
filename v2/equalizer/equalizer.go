@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	vlc "github.com/adrg/libvlc-go/v3"
+	vlc "github.com/adrg/libvlc-go/v2"
 )
 
 func main() {
