@@ -45,6 +45,10 @@ func main() {
 	}
 	fmt.Println("")
 
+	// NOTE: in order to get a single band frequency, use
+	// vlc.EqualizerBandFrequency. Use EqualizerBandCount
+	// to obtain the number of available equalizer bands.
+
 	// Create a new equalizer from a preset.
 	// If you want to start from scratch, use vlc.NewEqualizer.
 	equalizer, err := vlc.NewEqualizerFromPreset(presetIdx)
@@ -52,10 +56,6 @@ func main() {
 		log.Fatal(err)
 	}
 	defer equalizer.Release()
-
-	// NOTE: in order to get a single band frequency, use
-	// vlc.EqualizerBandFrequency. Use EqualizerBandCount
-	// to obtain the number of available equalizer bands.
 
 	// Get and set preamplification value.
 	preAmp, err := equalizer.PreampValue()
