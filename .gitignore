@@ -1,4 +1,4 @@
-# v2 binaries
+# v2 binaries.
 v2/player/player
 v2/list_player/list_player
 v2/event_handling/event_handling
@@ -11,7 +11,7 @@ v2/gtk3_player/gtk3_player
 v2/gtk3_screen_recorder/gtk3_screen_recorder
 v2/equalizer/equalizer
 
-# v3 binaries
+# v3 binaries.
 v3/player/player
 v3/list_player/list_player
 v3/event_handling/event_handling
@@ -24,3 +24,4 @@ v3/gtk3_player/gtk3_player
 v3/gtk3_screen_recorder/gtk3_screen_recorder
 v3/chromecast_streaming/chromecast_streaming
 v3/equalizer/equalizer
+v3/gtk3_media_discovery/gtk3_media_discovery
