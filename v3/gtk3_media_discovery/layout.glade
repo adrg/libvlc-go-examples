@@ -7,12 +7,12 @@
     <property name="visible">True</property>
     <property name="can_focus">True</property>
     <property name="title" translatable="yes">libvlc-go media discovery</property>
-    <property name="window_position">center</property>
-    <property name="default_width">1024</property>
-    <property name="default_height">768</property>
     <property name="type_hint">dialog</property>
     <property name="gravity">center</property>
     <property name="has_resize_grip">True</property>
+    <property name="window_position">center</property>
+    <property name="default_width">1280</property>
+    <property name="default_height">720</property>
     <child type="titlebar">
       <object class="GtkHeaderBar" id="appHeader">
         <property name="name">appHeader</property>
