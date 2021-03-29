@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -49,7 +48,7 @@ func addFreqScale(label string, container *gtk.Box) *gtk.Scale {
 	freqLabel, err := gtk.LabelNew(label)
 	assertErr(err)
 	freqLabel.SetHAlign(gtk.ALIGN_CENTER)
-	freqLabel.SetMarginTop(10)
+	freqLabel.SetMarginTop(5)
 
 	freqBox, err := gtk.BoxNew(gtk.ORIENTATION_VERTICAL, 0)
 	freqBox.SetVExpand(true)
@@ -57,8 +56,8 @@ func addFreqScale(label string, container *gtk.Box) *gtk.Scale {
 	assertErr(err)
 	freqBox.Add(freqScale)
 	freqBox.Add(freqLabel)
-	freqBox.SetMarginTop(10)
-	freqBox.SetMarginBottom(10)
+	freqBox.SetMarginTop(5)
+	freqBox.SetMarginBottom(5)
 	container.Add(freqBox)
 
 	return freqScale
@@ -128,7 +127,6 @@ func main() {
 			}
 
 			val := scale.GetValue()
-			fmt.Println(idx, val)
 			if idx == -1 {
 				err = equalizer.SetPreampValue(val)
 				assertErr(err)

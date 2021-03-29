@@ -7,8 +7,8 @@
     <property name="can_focus">False</property>
     <property name="resizable">False</property>
     <property name="window_position">center</property>
-    <property name="default_width">781</property>
-    <property name="default_height">462</property>
+    <property name="default_width">960</property>
+    <property name="default_height">540</property>
     <property name="type_hint">dialog</property>
     <child type="titlebar">
       <object class="GtkHeaderBar" id="appHeader">
@@ -31,20 +31,20 @@
             <property name="can_focus">False</property>
             <property name="margin_left">10</property>
             <property name="margin_right">10</property>
-            <property name="margin_top">10</property>
-            <property name="margin_bottom">10</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="label_xalign">0.0099999997764825821</property>
             <child>
               <object class="GtkAlignment">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="left_padding">12</property>
                 <child>
                   <object class="GtkBox">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
+                    <property name="margin_left">10</property>
                     <property name="margin_right">10</property>
-                    <property name="margin_bottom">15</property>
+                    <property name="margin_bottom">10</property>
                     <child>
                       <object class="GtkComboBoxText" id="presetsComboBox">
                         <property name="name">presetsComboBox</property>
@@ -58,7 +58,7 @@
                       </object>
                       <packing>
                         <property name="expand">False</property>
-                        <property name="fill">True</property>
+                        <property name="fill">False</property>
                         <property name="position">1</property>
                       </packing>
                     </child>
@@ -108,8 +108,8 @@
             <property name="can_focus">False</property>
             <property name="margin_left">10</property>
             <property name="margin_right">10</property>
-            <property name="margin_top">10</property>
-            <property name="margin_bottom">10</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="label_xalign">0.0099999997764825821</property>
             <child>
               <object class="GtkAlignment">
@@ -150,21 +150,21 @@
             <property name="can_focus">False</property>
             <property name="margin_left">10</property>
             <property name="margin_right">10</property>
-            <property name="margin_top">10</property>
-            <property name="margin_bottom">10</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="label_xalign">0.0099999997764825821</property>
             <child>
               <object class="GtkAlignment">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="left_padding">12</property>
                 <child>
                   <object class="GtkBox">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
+                    <property name="margin_left">10</property>
                     <property name="margin_right">10</property>
-                    <property name="margin_top">20</property>
-                    <property name="margin_bottom">20</property>
+                    <property name="margin_top">10</property>
+                    <property name="margin_bottom">10</property>
                     <child>
                       <object class="GtkBox">
                         <property name="visible">True</property>
