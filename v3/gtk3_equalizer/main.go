@@ -66,7 +66,7 @@ func addFreqScale(label string, container *gtk.Box) *gtk.Scale {
 
 func main() {
 	// Initialize libVLC module.
-	err := vlc.Init("-vvv", "--no-xlib")
+	err := vlc.Init("--quiet", "--no-xlib")
 	assertErr(err)
 
 	// Create a new player.
