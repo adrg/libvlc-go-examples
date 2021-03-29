@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	vlc "github.com/adrg/libvlc-go/v3"
+	vlc "github.com/adrg/libvlc-go/v2"
 	"github.com/gotk3/gotk3/glib"
 	"github.com/gotk3/gotk3/gtk"
 )
