@@ -14,6 +14,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 
 * [GTK 3 media player](v3/gtk3_player) (using [gotk3](https://github.com/gotk3/gotk3))
 * [GTK 3 screen recorder](v3/gtk3_screen_recorder) (using [gotk3](https://github.com/gotk3/gotk3))
+* [GTK 3 equalizer](v3/gtk3_equalizer) (using [gotk3](https://github.com/gotk3/gotk3))
 * [GTK 3 media discovery](v3/gtk3_media_discovery) (using [gotk3](https://github.com/gotk3/gotk3))
 * [GTK 2 media player](v3/gtk2_player) (using [go-gtk](https://github.com/mattn/go-gtk))
 * [GTK 2 screen recorder](v3/gtk2_screen_recorder) (using [go-gtk](https://github.com/mattn/go-gtk))
@@ -31,6 +32,7 @@ See [libvlc-go](https://github.com/adrg/libvlc-go) for installation instructions
 
 * [GTK 3 media player](v2/gtk3_player) (using [gotk3](https://github.com/gotk3/gotk3))
 * [GTK 3 screen recorder](v2/gtk3_screen_recorder) (using [gotk3](https://github.com/gotk3/gotk3))
+* [GTK 3 equalizer](v2/gtk3_equalizer) (using [gotk3](https://github.com/gotk3/gotk3))
 * [GTK 2 media player](v2/gtk2_player) (using [go-gtk](https://github.com/mattn/go-gtk))
 * [GTK 2 screen recorder](v2/gtk2_screen_recorder) (using [go-gtk](https://github.com/mattn/go-gtk))
 * [Basic player usage](v2/player/player.go)
