@@ -1,3 +1,5 @@
+*.exe
+
 # v2 binaries.
 v2/player/player
 v2/list_player/list_player
